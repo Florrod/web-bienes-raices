@@ -5,54 +5,62 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bienes y raíces ¡Encuentra tu espacio!</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Es importante que nuestra hoja de estilos oficial este al final -->
 </head>
 
 <body>
-    <header>
-        <a href="/">
-            <img src="img/logo.svg" alt="Logo empresa" />
-        </a>
-        <nav>
-            <a href="nosotros.html">Nosotros</a>
-            <a href="anuncios.html">Anuncios</a>
-            <a href="blog.html">Blog</a>
-            <a href="contacto.html">Contacto</a>
-            <!-- <a target="_blank" href="https://www.netflix.com/es/">Ir a Netflix</a> -->
-        </nav>
-        <h1>Venta de casas y departamentos exclusivos de lujo</h1>
+    <header class="site-header inicio">
+        <div class="container header-content">
+            <div class="navbar">
+                <a href="/">
+                    <img src="img/logo.svg" alt="Logo empresa" />
+                </a>
+                <nav class="navigation">
+                    <a href="nosotros.html">Nosotros</a>
+                    <a href="anuncios.html">Anuncios</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="contacto.html">Contacto</a>
+                    <!-- <a target="_blank" href="https://www.netflix.com/es/">Ir a Netflix</a> -->
+                </nav>
+            </div>
+            <h1>Venta de casas y departamentos exclusivos de lujo</h1>
+        </div>
     </header>
 
-    <section>
-        <h2>Más sobre nosotros</h2>
+    <section class="container section">
+        <h2 class="encabezado-nosotros">Más sobre nosotros</h2>
+        <div class="iconos-info">
+            <div class="icono">
+                <img src="img/icono1.svg" alt="icono seguridad" />
+                <h3>Seguridad</h3>
+                <p>
+                    Sit amet consectetur adipisicing elit. Possimus quod quas sunt tenetur
+                    dolore dolores iusto ad est beatae animi praesentium id quaerat
+                    expedita, tempore fugit unde at fuga eligendi?
+                </p>
+            </div>
 
-        <div>
-            <img src="img/icono1.svg" alt="icono seguridad" />
-            <h3>Seguridad</h3>
-            <p>
-                Sit amet consectetur adipisicing elit. Possimus quod quas sunt tenetur
-                dolore dolores iusto ad est beatae animi praesentium id quaerat
-                expedita, tempore fugit unde at fuga eligendi?
-            </p>
-        </div>
+            <div class="icono">
+                <img src="img/icono2.svg" alt="icono mejor precio" />
+                <h3>El mejor precio</h3>
+                <p>
+                    Sit amet consectetur adipisicing elit. Possimus quod quas sunt tenetur
+                    dolore dolores iusto ad est beatae animi praesentium id quaerat
+                    expedita, tempore fugit unde at fuga eligendi?
+                </p>
+            </div>
 
-        <div>
-            <img src="img/icono2.svg" alt="icono mejor precio" />
-            <h3>El mejor precio</h3>
-            <p>
-                Sit amet consectetur adipisicing elit. Possimus quod quas sunt tenetur
-                dolore dolores iusto ad est beatae animi praesentium id quaerat
-                expedita, tempore fugit unde at fuga eligendi?
-            </p>
-        </div>
-
-        <div>
-            <img src="img/icono3.svg" alt="icono a tiempo" />
-            <h3>A tiempo</h3>
-            <p>
-                Sit amet consectetur adipisicing elit. Possimus quod quas sunt tenetur
-                dolore dolores iusto ad est beatae animi praesentium id quaerat
-                expedita, tempore fugit unde at fuga eligendi?
-            </p>
+            <div class="icono">
+                <img src="img/icono3.svg" alt="icono a tiempo" />
+                <h3>A tiempo</h3>
+                <p>
+                    Sit amet consectetur adipisicing elit. Possimus quod quas sunt tenetur
+                    dolore dolores iusto ad est beatae animi praesentium id quaerat
+                    expedita, tempore fugit unde at fuga eligendi?
+                </p>
+            </div>
         </div>
     </section>
 
@@ -133,7 +141,7 @@
         <p>- Flor Rodríguez</p>
     </section>
     <footer>
-        <nav>
+        <nav class="navigation">
             <a href="nosotros.html">Nosotros</a>
             <a href="anuncios.html">Anuncios</a>
             <a href="blog.html">Blog</a>
